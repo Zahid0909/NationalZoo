@@ -1,0 +1,731 @@
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black; 
+}    
+#contactUsContainer {
+    margin: 10px;
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 27px;
+    overflow: hidden;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display: block;
+    color: black;
+    text-align: top;
+    padding:14.3px 25px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 30%;
+    padding: 12px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 30%;
+    padding: 12px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;    
+}
+/*Reset button Styling*/
+input[type=reset]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Reset button hovering Styling*/ 
+input[type=reset]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;;
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    position: absolute;
+    right: 1060px;   
+    text-align: center; 
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    border: 5px solid  #306a82;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    float: right;
+    width: 590px;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 100px 200px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Icon Styling*/
+#imgIO{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+}
+#imgIT{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+}
+#imgITh{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 600px;
+}
+/*Links Hovering Styling 
+/* unvisited link */
+a:link {
+    color: blue;
+}  
+/* Visited link */
+a:visited {
+    color: purple;
+} 
+/* Mouse over link */
+a:hover {
+    color: red;
+}
+/* Selected link */
+a:active {
+    color: black;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 27px;
+    overflow: hidden;
+    background-color: #306a82;
+}
+/*Foot navigation li tag Styling*/  
+#footerNav li {
+    float: center;
+}
+/*Foot navigation "a" tag Styling*/  
+#footerNav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}
+/*Foot navigation hover Styling*/ 
+#footerNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Mobile responsive Styling*/
+/*Main Navigation Styling for mobile*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px;
+    border-top: 70px solid #306a82;   
+    border-bottom: 70px solid #306a82;  
+}
+
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 190px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 50%;
+    border: 5px solid #306a82;
+    background-color:#306a82;
+    transition: 0.5s;;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 120%;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 105px;
+    height: 65px;
+    border-top: 85px solid #306a82; 
+    border-bottom: 90px solid #306a82;     
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 205px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 50%;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 140%;
+}
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px;
+    border-top: 75px solid #306a82;  
+    border-bottom: 75px solid #306a82;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 215px;
+    background-color: #306a82;;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 50%;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 140%;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 758px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 76.5%;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 70%;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 1015px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 82%;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 50%;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px)
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 1015px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Icon Styling*/
+#imgIO{
+    position: absolute;
+    left: 20px;
+}
+#imgIT{
+    position: absolute;
+    left: 20px;
+}
+#imgITh{
+    position: absolute;
+    left: 20px;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: black;
+    position: absolute;
+    margin-top: 900px;
+    width: 82%;
+    border: 5px solid #306a82;
+    background-color: #306a82;
+    padding: 50px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20;
+}
+/*Form Styling*/
+/*Input type text Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+}
+/*Input type email Styling*/
+input[type=email], select {
+    width: 100%;    
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Submit button hovering Styling*/  
+input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+iframe{
+    margin-top: 50%;
+}    
+}

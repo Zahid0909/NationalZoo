@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a site about the zoo">
+        <title>Animals and Plants</title>
+        <!--Link to the External Style Sheets-->
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/animalAndPlants.css">
+        <!--Adding an Icon Using Web Manifest-->
+        <link rel="apple-touch-icon" sizes="152x152" href="Images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+        <link rel="manifest" href="Images/site.webmanifest">
+        <link rel="shortcut icon" href="Images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="Images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!--Internal CSS to align the paragraph and logo image-->
+        <style>
+            img 
+            {
+                float: left;
+            }
+        </style>
+    </head>
+    <!--body tag which carries the main context of the page -->
+    <body>
+        <div id="myPage">
+            <!--header tag  to add the header for the Animals & Plants page-->
+            <header id="mainHeader">
+                <!--Logo of the website with a clickable image which would return to homepage-->
+                <a href="index.html" value="Homepage">
+                <img src="Images/Logo.jpg" alt="Zoo Logo" width="164" height="102"></a>
+                <!--Main Navigation For The Website-->
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="animalsAndPlants.html">Animal & Plants</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="purchasesAndDonate.html">Purchase & Donate</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li> 
+                    </ul>
+                </nav>               
+            </header><br><br>
+            <main id="animals&PlantsContainer">
+                <!--section tag to add the first section of the Animals&Plants page-->
+                <section>
+                    <!--thead tag to add the header for the table which would be easy and h2 tag  to add 
+                    the heading as well center tag to center the heading of the table as well-->
+                    <h2><u>Animals</u></h2><br><br><br>   
+                    <h3><u>Introduction about Animals</u></h3>
+                    <p>
+                        Animals (also called Metazoa) are multicellular, eukaryotic organisms in the biological 
+                        kingdom Animalia. With few exceptions, animals consume organic material, breathe oxygen,
+                        are able to move, can reproduce sexually, and go through an ontogenetic stage in which 
+                        their body consists of a hollow sphere of cells, the blastula, during embryonic
+                        development. Over 1.5 million living animal species have been described of which around
+                        1 million are insects but it has been estimated there are over 7 million animal species 
+                        in total.
+                    </p>
+                    <p>
+                        Animals range in length from 8.5 micrometres (0.00033 in) to 33.6 metres (110 ft). 
+                        They have complex interactions with each other and their environments, forming
+                        intricate food webs. The scientific study of animals is known as zoology.
+                        Most living animal species are in Bilateria, a clade whose members have a bilaterally
+                        symmetric body plan. The Bilateria include the protostomes, containing invertebrates
+                        such as nematodes, arthropods, and molluscs, and the deuterostomes, containing the 
+                        echinoderms and the chordates, the latter including the vertebrates. Life forms 
+                        interpreted as early animals were present in the Ediacaran biota of the 
+                        late Precambrian. Many modern animal phyla became clearly established in the fossil 
+                        record as marine species during the Cambrian explosion, which began around 542 million
+                        years ago. 6,331 groups of genes common to all living animals have been identified; 
+                        these may have arisen from a single common ancestor that lived 650 million years ago.
+                    </p>
+                    <!--a href tag to read more details of the above given informations in wikipedia-->
+                    <a href="https://en.wikipedia.org/wiki/Animal#:~:text=Animals%20(also%20called%20Metazoa)%20are,in%20the%20biological%20kingdom%20Animalia.&text=Over%201.5%20million%20living%20animal,million%20animal%20species%20in%20total." 
+                    target="_blank">Read More</a><br><br><br>
+                    <!--table tag to add content for the Animals headings-->
+                    <table>                      
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--th tags to seperate the table headings into coloumns-->
+                            <th><u>Type of Animals</u></th>
+                            <th><u>Image of The Animal</u></th>
+                            <th><u>Description About The Animal Type</u></th>
+                        </tr>
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Amazing Primates</h5></td>
+                            <td><figure><img src="Images/Primates.jpg" alt="Primates" width="288" height="200">
+                            <figcaption>Type of a Primate</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p> 
+                                    Primates (Lemurs, Monkeys and Apes) are the most active mammals in the zoo.
+                                    Brown lemur (Eulemur fulvus albifrons), Ring tailed lemur (Lemur catta) and
+                                    Slender Loris sub species (Loris tardigrates)are primitive Primates in the zoo.
+                                </p>
+                                <p>
+                                    There are around 16 varieties of monkeys. Purple Faced Leaf Monkey (Trachypithecus 
+                                    vetulus) is endemic while Toque Monkey (Macaca sinica sinica) sub species is endemic.
+                                </p>
+                                <p>
+                                    Swinging style and jumping from branch to branch using prehensile tails attract 
+                                    visitors to drawn Spider monkeys (Ateles belzebuth).Monkeys in family groups with 
+                                    mothers caring babies, it is worth to see attraction great apes Orang Utans and 
+                                    Chimpanzees.
+                                </p>
+                            </td>
+                        </tr> 
+                        <!--tr tag to add rows to the table-->   
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Aquarium</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Aquarium.jpg" alt="Aquarium" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption--> 
+                            <figcaption>Aqarium view</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    The aquarium, which is a star attraction of the zoo, consists freshwater, 
+                                    marine and brackish water sections. It was established for 40 years.
+                                </p>
+                                <p>
+                                    Many fish species and corals, mollusks, echinoderms and arthropods are in 
+                                    22 tanks.Visitors could observation most behavior patterns of these aquatic 
+                                    organisms such as breeding, colonization, symbiosis and competition etc., 
+                                    from outside the tank.
+                                </p>
+                                <p>
+                                    There are 50 fish species identified as endemic to Sri Lanka. Out of them 
+                                    many different varieties are exhibited in the aquarium. Very rare varieties
+                                    of fish including endemics have been bred in the aquarium and in zoo ponds 
+                                    as well.
+                                </p>
+                                <p>
+                                    An Amphibian section has been opened in side the aquarium to make aware 
+                                    the public on Amphibians.
+                                </p>
+                                <p>
+                                    Currently there are three tanks with Amphibians, where as six species are 
+                                    living in their near natural conditions. Endemic frog species Polypedates.
+                                </p>
+                            </td>
+                        </tr>  
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Birds</h5></td>
+                            <!--Using figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Birds.jpg" alt="Birds" width="288" height="200">
+                            <!--Using figcaption tag to caption the image and using the center tag to align the caption-->     
+                            <figcaption>Type of a Bird</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    Sri Lanka is incredibly rich in birds. There are 453 species of avifauna. 
+                                    The distribution of these birds varies with habitats and climatic changes. 
+                                    Nearly 225 species of residents including 33 species of endemics make huge 
+                                    avian diversity in this island.
+                                </p>
+                                <p>
+                                    Large number of different varieties of birds colour the zoo. Bird section 
+                                    comprises of, beautiful parrot species, flightless birds, aquatic and semi 
+                                    aquatic birds and  many other flying birds.
+                                </p>
+                                <p>
+                                    Group of Flamingos beautifies the entrance of the zoo. Ostrich, the fastest 
+                                    and largest flightless bird occupies the close by enclosure at the entrance 
+                                    and other two flightless birds, Cassowary and Emu occupy the rear enclosures.
+                                </p>
+                                <p>
+                                    There are two walk-in aviaries; one is for endemic and indigenous birds and 
+                                    the other one is for exotic birds. Visitors can observe freely flying birds, 
+                                    inside beautifully landscaped aviaries under shady and cool environment.
+                                </p>
+                            </td>
+                        </tr>   
+                        <!--tr tag to add rows to the table-->   
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Butterfly Garden</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Butterflies.jpg" alt="Butterfly" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption-->     
+                            <figcaption>Type of a Butterfly</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    Almost 245 species of butterflies have been recorded in Sri Lanka, of which 
+                                    26 species are endemic and 100 species are threatened.
+                                </p>
+                                <p>
+                                    The Zoo has a small but attractive butterfly garden, which is rich in shrubs 
+                                    and flowers. A small stream flows through the butterfly garden, makes the 
+                                    surrounding more pleasant and cool.
+                                </p>
+                                <p>
+                                    Though there are so many butterflies flying throughout the zoo, Butterfly 
+                                    Park is the place where visitors should visit to see different varieties 
+                                    of butterflies in a beautifully landscaped area. Flowering plants and feeding 
+                                    plants of butterflies make this place more attractive.
+                                </p>
+                                <p>
+                                    Around 30 species of butterflies could observe here. 
+                                    In addition to the natural nectar, butterflies are fed with artificially 
+                                    provided bee honey and fruit juice and also fresh fruit pieces are provided 
+                                    to suck juices. Not only butterflies but other stages of butterfly life cycle 
+                                    also display there, in order to educate visitors
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Cats</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Cats.jpg" alt="Cats" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption-->     
+                            <figcaption>Type of a Cat</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    Cat family (family Felidae) members are prominent among carnivores in the 
+                                    zoo. Sri Lankan Leopard (Panthera pardus kotiya), African Lion (Panthera leo) 
+                                    and Bengal Tiger (Panthera tigris tigris) are the big cats found in the zoo.
+                                </p>
+                                <p>
+                                    Both orange and white Bengal Tigers could see here. The Sri Lankan leopard 
+                                    colloquially known as “Kotiya” and “Diviyā” in Sinhala, is a subspecies of 
+                                    leopard native to Sri Lanka and it is the country's top predator. 
+                                    Fishing cat (Prionailurus viverrinus), Rusty spotted cat (Prionailurus 
+                                    rubiginosus phillipsi) and Jungle cat (Felis chaus kelaarti) are the small 
+                                    indigenous cats found in the country and in the zoo as well
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Elephants</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Elephants.jpg" alt="Elephants" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption--> 
+                            <figcaption>Type of a Elephant</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    African Elephants (Loxodonta africana) and Asian Elephants (Elephas maximus 
+                                    maximus) are different species that live in different parts of the world. 
+                                    You can see both species in the Dehiwala Zoo. There are six Asian Elephants 
+                                    and one African eEephant (Loxodonta africana).Any body can see the educational 
+                                    display of Elephants in every evening at free of charge.
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Reptilium</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Reptilium.png" alt="Reptilium" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption-->     
+                            <figcaption>Type of a Reptilium</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    Reptilium to welcome the visitors. Cuban Crocodile, Indian Gavial, False 
+                                    Gavial and three Dwarf crocodiles, the smallest crocodile species in the 
+                                    world enhance the value of the Crocodile collection.
+                                </p>
+                                <p>
+                                    Tortoises and Terrapins live in harmony with Rhinoceros Iguanas and False 
+                                    Gavial. Snakes dwell in - house section of the Reptilium. Russell's viper 
+                                    (Daboia russelli), Sri Lankan Cobra (Naja naja), Common Krait (Bungarus 
+                                    caeruleus), Ceylon Krait (Bangarus ceylonicus) and Hump Nosed Viper (Hypnale 
+                                    hypnale) are found in the zoo out of the seven species of highly poisonous 
+                                    snakes in Sri Lanka. Albino form of Sri Lankan Cobra also found here.
+                                </p>
+                                <p>
+                                    Pythons with their gigantic size and elongated bodies astonish visitors.  
+                                    Being a famous character in movie world Green Anacondas have drawn special 
+                                    attraction of the visitors, especially children.
+                                </p>
+                                <p>
+                                    Even the indoor enclosures are made to receive sunlight and ventilation 
+                                    and therefore have facilitated snakes to live with nature.
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Ungulates (Hoofed Mammals)</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Giraffe.png" alt="Hoofed Mammals" width="288" height="200">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption--> 
+                            <figcaption>Type of a Ungulates (Hoofed Mammals)</figcaption>
+                            </figure></td>
+                            <td>
+                                <!--p tags to add the description of the animal type in paragraph format-->
+                                <p>
+                                    Even the indoor enclosures are made to receive sunlight and ventilation and 
+                                    therefore have facilitated snakes to live with nature. Two species of Mouse 
+                                    Deer family, Moschiola meminna and Moschiola indica, are in the zoo. 
+                                    Moschiola meminna is endemic and in the dry forests of Sri Lanka.
+                                </p>
+                                <p>
+                                    African continent animals, Hippopotamus (Hippopotamus amphibious) and Pygmy 
+                                    Hippopotamus (Hexaprotodon liberiensis) are semi aquatic even toed mammals 
+                                    found spending most of the time in the water.
+                                </p>
+                                <p>
+                                    In addition to Hippos, Rhinos and African Elephant (Loxodonta africana), 
+                                    the tallest land-living and the largest ruminant Giraffe (Giraffa 
+                                    camelopardalis reticulata), Greater Kudu (Hippotragus niger), Red Lechwe 
+                                    (Leche leche), Scimmitar Horned Oryx (Oryx dama gazella) and Wild Buffaloes 
+                                    (Syncerus cafer) are some key African Mammal species in the zoo.
+                                </p>
+                                <p>
+                                    One who visits the zoo should not forget Elephants. A group of Sri Lankan 
+                                    Elephants (Elephas maximus maximus), some females and 'Bandula' one of 
+                                    the largest male Elephant in the country 'Bandula' are living harmony in 
+                                    elephant area with African elephant 'Joe'.
+                                </p>
+                                <p>
+                                    Some Rodents like Indian Crested Porcupine, largest Rodent found in Sri 
+                                    Lanka, Giant Squirrel (Ratufa macroura) and Rabbits enhance the diversity 
+                                    Zoo animal collection.
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tfoot tag to add the footer to the table-->
+                        <tfoot id="tFooterO">
+                            <tr>    
+                            <td></td>
+                            <td></td>
+                            <td>Table of Contents to the title of Animals</td>
+                            </tr>
+                        </tfoot>
+                    </table><br>                                      
+                </section><br><br><br>
+                <!--section tag to add the second section of the Animals & Plants page-->
+                <section>
+                    <!--table tag for adding content for the Plants headings-->
+                    <h2><u>Plants</u></h2><br><br>
+                    <h3><u>Introduction about Plants</u></h3>
+                    <p>
+                        Plants are mainly multicellular organisms, predominantly photosynthetic eukaryotes
+                        of the kingdom Plantae. Historically, plants were treated as one of two kingdoms 
+                        including all living things that were not animals, and all algae and fungi were 
+                        treated as plants. However, all current definitions of Plantae exclude the fungi 
+                        and some algae, as well as the prokaryotes (the archaea and bacteria).  
+                    </p>
+                    <p>
+                        By one definition, plants form the clade Viridiplantae (Latin name for "green plants"), 
+                        a group that includes the flowering plants, conifers and other gymnosperms, ferns 
+                        and their allies, hornworts, liverworts, mosses, and the green algae, but excludes
+                        the red and brown algae. Green plants obtain most of their energy from sunlight via 
+                        photosynthesis by primary chloroplasts that are derived from endosymbiosis with 
+                        cyanobacteria. Their chloroplasts contain chlorophylls a and b, which gives them their
+                        green color. Some plants are parasitic or mycotrophic and have lost the ability to produce normal 
+                        amounts of chlorophyll or to photosynthesize, but still have flowers,fruits, and seeds.
+                        Plants are characterized by sexual reproduction and alternation of generations, 
+                        although asexual reproduction is also common.
+                    </p>
+                    <!--a href tag to read more details of the above given informations in wikipedia-->
+                    <a href="https://en.wikipedia.org/wiki/Plant" target="_blank">
+                    Read More</a><br><br><br>   
+                    <table>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--th tags for seperating the table headings in to coloumns-->
+                            <th><u>Type of Plants</u></th>
+                            <th><u>Image of The Plant</u></th>
+                            <th><u>Scope</u></th>
+                            <th><u>Description About the Plant Type</u></th>
+                        </tr>
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Land plants, also known as 
+                                <!--a href tag to view meanings of difficult words in wikipedia -->
+                                <a href="https://en.wikipedia.org/wiki/Embryophyte" target="_blank">Embryophyte</a>
+                            </h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Plants1.png" alt="Land Plants" width="488" height="300">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption--> 
+                            <figcaption>Land Plants</figcaption>
+                            </figure></td>
+                            <td>Plants<br>
+                                <!--a href tag to view meanings of difficult words in wikipedia -->
+                                <a href="https://en.wikipedia.org/wiki/Glossary_of_botanical_terms#sensu_strictissimo" 
+                                target="_blank">sensu strictissimo</a>    
+                            </td>
+                            <td>
+                                <!--p tags to add the description of the plant type in paragraph format-->
+                                <p>
+                                    Plants in the strictest sense include the liverworts, hornworts, mosses, 
+                                    and vascular plants, as well as fossil plants similar to these surviving 
+                                    groups (e.g : Metaphyta Whittaker, Plantae Margulis).
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <!--a href tag to view meanings of difficult words in wikipedia -->
+                            <td><h5>Green plants, also known as <a href="https://en.wikipedia.org/wiki/Viridiplantae"
+                                target="_blank">Viridiplantae</a>, Viridiphyta, Chlorobionta or Chloroplastida</h5></td>
+                            <!--figure tag to add suitable images to the table-->    
+                            <td><figure><img src="Images/Plants2.jpg" alt="Green Plants" width="488" height="340">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption--> 
+                            <figcaption>Green Plants</figcaption>
+                            </figure></td>
+                            <td>Plantae
+                                <!--a href tag to view meanings of difficult words in wikipedia -->
+                                <a href="https://en.wikipedia.org/wiki/Glossary_of_botanical_terms#sensu_stricto" target="_blank">
+                                sensu stricto </a>
+                            </td>
+                            <td>
+                                <!--p tags to add the description of the plant type in paragraph format-->
+                                <p>
+                                    Plants in a strict sense include the green algae, and land plants that 
+                                    emerged within them, including stoneworts. The relationships between 
+                                    plant groups are still being worked out, and the names given to them 
+                                    vary considerably. The clade Viridiplantae encompasses a group of organisms 
+                                    that have cellulose in their cell walls, possess chlorophylls a and b and 
+                                    have plastids bound by only two membranes that are capable of photosynthesis 
+                                    and of storing starch. This clade is the main subject of this article 
+                                    (e.g : Plantae Copeland).
+                                </p>
+                            </td>
+                        </tr>
+                        <!--Using tr tag to add rows to the table-->
+                        <tr>
+                            <!--Using td tags to add data on the table-->
+                            <!--a href tag to view meanings of difficult words in wikipedia -->
+                            <td><h5><a href="https://en.wikipedia.org/wiki/Archaeplastida" target="_blank">Archaeplastida
+                            </a>, also known as Plastida or Primoplantae</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Plants3.jpg" alt="Broad Sense Plants" width="488" height="340">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption-->    
+                            <figcaption>Broad Sense Plants</figcaption>
+                            </figure></td>
+                            <td>Plantae
+                                <!--a href tag to view meanings of difficult words in wikipedia -->
+                                <a href="https://en.wikipedia.org/wiki/Glossary_of_botanical_terms#sensu_lato"
+                                target="_blank">sensu lato</a>
+                            </td>
+                            <td>
+                                <!--p tags to add the description of the plant type in paragraph format-->
+                                <p>
+                                    Plants in a broad sense comprise the green plants listed above plus the red 
+                                    algae (Rhodophyta) and the glaucophyte algae (Glaucophyta) that store Floridean 
+                                    starch outside the plastids, in the cytoplasm. This clade includes all of the 
+                                    organisms that eons ago acquired their primary chloroplasts directly by engulfing 
+                                    cyanobacteria (e.g : Plantae Cavalier-Smith).
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tr tag to add rows to the table-->
+                        <tr>
+                            <!--td tags to add data on the table-->
+                            <td><h5>Widest Sense</h5></td>
+                            <!--figure tag to add suitable images to the table-->
+                            <td><figure><img src="Images/Plants4.png" alt="Widest Sense Of Plants" width="488"
+                            height="540">
+                            <!--figcaption tag to caption the image and using the center tag to align the caption-->
+                            <figcaption>Widest Sense of Plants</figcaption>
+                            </figure></td>
+                            <!--a href tag to view meanings of difficult words in wikipedia -->
+                            <td>Plantae <a href="https://en.wikipedia.org/wiki/Glossary_of_botanical_terms#sensu_amplo" 
+                            target="_blank">sense amplo</a>
+                            </td>
+                            <td>
+                                <!--Using p tags to add the description of the plant type in paragraph format-->
+                                <p>
+                                    Plants in the widest sense refers to older, obsolete classifications 
+                                    that placed diverse algae, fungi or bacteria in Plantae 
+                                    (e.g : Plantae or Vegetabilia Linnaeus, Plantae Haeckel, 
+                                    Metaphyta Haeckel, Plantae Whittaker).
+                                </p>
+                            </td>
+                        </tr>
+                        <!--tfoot tag to add the footer to the table-->
+                        <tfoot id="tFooterT">
+                            <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Table of Contents to the title of Plants</td>
+                            </tr>
+                        </tfoot>
+                    </table><br>  
+                </section><br><br><br> 
+            </main>
+            <!--footer tag to add footer to the Animals & Plants page-->
+            <footer>
+                <!--nav tag to add a navigation bar to the footer-->
+                <nav id="footerNav">
+                    <ul>
+                        <li><a href="https://www.google.com/" target="_blank">Help</a></li>
+                        <li><a href="privacyAndTerms.html">Privacy and Terms</a></li>
+                        <li><a href="userAgreement.html">User Agreement</a></li>
+                    </ul>
+                </nav>
+                <!--Navigation Logo image: Nationalzoo.gov (2020) Logo for the page [Online] Available from:http://nationalzoo.gov.lk/zoo/ 
+                [Accessed:20/11/2021]-->
+                <!--Section Table row ImagePrimates: Google.com (2011) Image of Primates. [Online] Available from:
+                https://cdn.pixabay.com/photo/2018/09/25/21/32/monkey-3703230__340.jpg  [Accessed: 21/11/2021-->   
+                <!--Section Table row Paragraph: Wikipedia.org (2021) Content about Primates. [Online] Available from:
+                https://en.wikipedia.org/wiki/Primate  [Accessed:21/11/2021]-->   
+                <!--Section Table row ImageAquarium: Google.com (2011) Image of Aquarium. [Online] Available from:
+                https://blooloop.com/wp-content/uploads/2016/11/Dubai-Aquarium-and-Underwater-Zoo-by-Emaar-Entertainment.jpg
+                [Accessed:21/11/2021]-->                   
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Aquarium. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/aquarium/ [Accessed:21/11/2021]-->
+                <!--Section Table row ImageBirds: Google.com (2011) Image of Birds. [Online] Available from:
+                https://www.thoughtco.com/thmb/nhezwxPKb0WrFp_5ogIuuOh2IhA=/2576x2576/smart/filters:no_upscale()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg
+                [Accessed:21/11/2021]-->
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Birds. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/birds/ [Accessed:21/11/2021]-->
+                <!--Section Table row ImageButterflies: Google.com (2011) Image of Butterflies. [Online] Available from:
+                https://cdn.britannica.com/w:1100/09/167709-131-36A6A6E8/butterfly-moth-blue-Lepidoptera-insect.jpg
+                https://www.thoughtco.com/thmb/nhezwxPKb0WrFp_5ogIuuOh2IhA=/2576x2576/smart/filters:no_upscale()/american-bald-eagle-head-in-front-of-american-flag-950701786-5b85581346e0fb0025e00b06.jpg
+                [Accessed:21/11/2021]-->
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Butterfly Garden. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/birds/ [Accessed:21/11/2021]-->
+                <!--Section Table row ImageCats: Google.com (2011) Image of Cats. [Online] Available from:
+                https://wallpaperaccess.com/full/2398173.jpg [Accessed:21/11/2021]-->
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Cats. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/cats/ [Accessed:21/11/2021]-->
+                <!--Section Table row ImageElephants: Wikipedia.org (2021) Image of Elephants. [Online] Available from:
+                https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Elephas_maximus_%28Bandipur%29.jpg/1200px-Elephas_maximus_%28Bandipur%29.jpg
+                [Accessed:21/11/2021]-->
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Elephants. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/elephants/ [Accessed:21/11/2021]-->   
+                <!--Section Table row ImageReptilium: Google.com (2011) Image of Reptilium. [Online] Available from:
+                https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/nutraingredients-asia.com/article/2021/08/30/make-it-snappy-thai-company-expanding-crocodile-blood-supplement-for-sports-after-trial-findings/12644991-1-eng-GB/Make-it-snappy-Thai-company-expanding-crocodile-blood-supplement-for-sports-after-trial-findings.png
+                [Accessed:21/11/2021]-->
+                <!--Section Table row Paragraph: Nationalzoo.gov (2020) Content about Reptilium. [Online] Available from:
+                http://nationalzoo.gov.lk/animal/reptilium/ [Accessed:21/11/2021]-->
+                <!--Section Table row ImageGiraffe: Google.com (2011) Image of Ungulates(Hoofed Mammals). [Online] Available from:
+                https://cdn.the-scientist.com/assets/articleNo/68567/aImg/41580/giraffe-1800x1260-m.png [Accessed:21/11/2021]-->
+                <!--Section of The whole Table of Contents: Wikipedia.org (2021) Content about Plants. [Online]
+                Availble from: https://en.wikipedia.org/wiki/Plant [Accessed:21/11/2021]-->
+                <!--Section Table row ImagePlants1: Google.com (2011) Image of Plants1. [Online] Available from: 
+                https://images.theconversation.com/files/309958/original/file-20200114-151829-1yfru3x.png?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip [Accessed:21/11/2021]-->
+                <!--Section Table row ImagePlants2: Wikipedia.org (2021) Image of Plants2. [Online] Available from:
+                https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Taiwan_2009_East_Coast_ShihTiPing_Giant_Stone_Steps_Algae_FRD_6581.jpg/330px-Taiwan_2009_East_Coast_ShihTiPing_Giant_Stone_Steps_Algae_FRD_6581.jpg
+                [Accessed:21/11/2021]-->
+                <!--Section Table row ImagePlants3: Wikipedia.org (2021) Image of Plants3. [Online] Available from:
+                https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sprague_River_%28Klamath_County%2C_Oregon_scenic_images%29_%28klaDA0073%29.jpg/390px-Sprague_River_%28Klamath_County%2C_Oregon_scenic_images%29_%28klaDA0073%29.jpg
+                [Accessed:21/11/2021]-->
+                <!--Section Table row ImagePlants4: Wikipedia.org (2021) Image of Plants4. [Online] Available from:
+                https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Diversity_of_plants_image_version_5.png/800px-Diversity_of_plants_image_version_5.png
+                [Accessed:21/11/2021]-->
+                <!--Footer navigation li: Google (2011) Help. [Online] Available from:https://www.google.com/ [Accessed:20/11/2021]--> 
+                <!--Footer navigation li: Google (2011) Privacy and Terms/ User Agreements. [Online] Available from:
+                https://www.starrv.com/graphics/pdf/StarRV_WebsiteTermsConditions.pdf [Accessed:20/11/2021]--> 
+            </footer>
+        </div>
+    </body>
+</html>

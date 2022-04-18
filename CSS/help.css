@@ -1,0 +1,67 @@
+/*Body Styling*/
+body {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: whitesmoke;   
+}    
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 27px;
+    overflow: hidden;
+    background-color: rgb(248, 150, 3);
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: top;
+    padding:14.3px 25px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover {
+    background-color: #111;
+}
+/*Heading Styling*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    border: 5px solid rgb(248, 150, 3) ;
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: whitesmoke;
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 27px;
+    overflow: hidden;
+    background-color: rgb(248, 150, 3);
+}
+/*Foot navigation li tag Styling*/  
+#footerNav li {
+    float: center;
+}
+/*Foot navigation "a" tag Styling*/  
+#footerNav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}
+/*Foot navigation hover Styling*/ 
+#footerNav li a:hover {
+    background-color: #111;
+}

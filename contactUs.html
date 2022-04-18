@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a site about the zoo">
+        <title>Contact Us</title>
+        <!--Link to the External Style Sheets-->
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/contactUs.css">
+        <!--Adding an Icon Using Web Manifest-->
+        <link rel="apple-touch-icon" sizes="152x152" href="Images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+        <link rel="manifest" href="Images/site.webmanifest">
+        <link rel="shortcut icon" href="Images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="Images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!--Internal CSS to align the paragraph and logo image-->
+        <style>
+            img 
+            {
+                float: left;
+            }
+        </style>
+    </head>
+    <!--body tag which carries the main context of the page -->
+    <body>
+        <div id="myPage">
+            <!--header tag  to add the header for the Contact Us page-->
+            <header id="mainHeader">
+                <!--Logo of the website with a clickable image which would return to homepage-->
+                <a href="index.html" value="Homepage">
+                <img src="Images/Logo.jpg" alt="Zoo Logo" width="164" height="102"></a>
+                <!--Main Navigation For The Website-->
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="animalsAndPlants.html">Animal & Plants</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="purchasesAndDonate.html">Purchase & Donate</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li> 
+                    </ul>
+                </nav> 
+            </header><br><br>
+            <main id="contactUsContainer">
+                <!--First section of the Contact Us page-->
+                <section>
+                    <!--form tag to represent a form where the users can give feedback-->
+                    <form>
+                        <h3>First Name</h3>
+                        <input type="text" name="fname" required="Required"><br>
+                        <h3>Last Name</h3>
+                        <input type="text" name="lname" required="Required"><br>
+                        <h3>Email</h3>
+                        <input type="email" name="email" required="Required"><br>
+                        <!--p tag to add informations to page-->
+                        <p><img id="imgIO" src="Images/Icon1.jpg" alt="Home Icon">
+                            Dehiwala Zoological Gardens<br>
+                            Anagarika Dharmapala Mawatha,
+                            Dehiwala.<br><br><br>
+ 
+                            <img id="imgIT" src="Images/Icon2.jpg" alt="Telephone Icon">
+                            General : +94 112712751<br>
+                            Fax : +94 112734542<br><br><br>
+
+                            <img id="imgITh" src="Images/Icon3.jpg" alt="E-mail Icon">
+                            <a href="mailto:zoosl@slt.lk">zoosl@slt.lk</a>
+                        </p>
+                        <h3>Citizen or Non-Immigrant</h3>
+                        <select name="cOrN">
+                            <option value="Citizen">Citizen</option>
+                            <option value="Non-Immigrant">Non-Immigrant</option>
+                        </select><br>
+                        <h3>Subject</h3>
+                        <input type="text" name="subject" required="Required"><br>
+                        <h3>Your Message</h3>
+                        <textarea cols="50" rows="20" name="feedback"></textarea><br>
+                        <input type="reset" name="reset" value="Reset">
+                        <input type="submit" name="fsubmit1" value="Send Info">  
+                    </form><br><br><br>
+                </section>
+                <!--ifram option to add the exact location via map to the Contact Us page-->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.2801566210956!2d79.87220845039961!3d6.856986421074448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25baace050325%3A0xfd90f5bffd93f59f!2sDehiwala%20Zoological%20Garden!5e0!3m2!1sen!2slk!4v1637359724532!5m2!1sen!2slk" 
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <br><br><br><br>
+            </main>
+            <!--footer tag to add the footer for the Contact Us page-->    
+            <footer>
+                <!--nav tag to add a navigation bar to the footer-->
+                <nav id="footerNav">
+                    <ul>
+                        <li><a href="https://www.google.com/" target="_blank">Help</a></li>
+                        <li><a href="privacyAndTerms.html">Privacy and Terms</a></li>
+                        <li><a href="userAgreement.html">User Agreement</a></li>
+                    </ul>
+                </nav>
+                <!--Navigation Logo image: Nationalzoo.gov (2020) [Online] Logo for the page [Online] 
+                Available from:http://nationalzoo.gov.lk/zoo/ [Accessed:20/11/2021]-->
+                <!--Section Paragraph: Nationalzoo.gov (2020) [Online] Available from http://nationalzoo.gov.lk/contact-us/
+                [Accessed:22/11/2021]-->
+                <!--Section ifram: Googlemaps.com (2005) For the location of the Zoo. [Online] Avalable from:
+                https://www.google.com/maps/place/Dehiwala+Zoological+Garden/@6.8569864,79.8722085,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25baace050325:0xfd90f5bffd93f59f!8m2!3d6.8569811!4d79.8744025
+                [Accessed:22/11/2021]-->
+                <!--Footer navigation li: Google (2011) Help. [Online] Available from:https://www.google.com/ [Accessed:20/11/2021]--> 
+                <!--Footer navigation li: Google (2011) Privacy and Terms/ User Agreements. [Online] Available from:
+                https://www.starrv.com/graphics/pdf/StarRV_WebsiteTermsConditions.pdf [Accessed:20/11/2021]-->
+            </footer>             
+        </div>
+    </body>
+</html>

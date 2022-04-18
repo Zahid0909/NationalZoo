@@ -1,0 +1,440 @@
+/*Body Styling*/
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 27px;
+    overflow: hidden;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: top;
+    padding:14.3px 25px;
+    text-decoration: none;
+}   
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+#dropDown {
+    list-style-type: none;
+    margin: 0;
+    padding: 27px;
+    overflow: hidden;
+    background-color:black;
+    height: 95px;
+}  
+/*Main navigation li tag Styling*/
+#dropDown li {
+    float: bottom;
+}      
+/*Main navigation "a" tag Styling*/    
+#dropDown li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#dropDown li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+/*Heading Styling*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 5px solid black ;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 27%;
+    width: auto;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Paragraph Styling*/
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    margin-top: 40%;
+    margin-bottom: 0%;
+    padding: 10px;
+    color: black;
+}
+/*Links Hovering Styling 
+/* unvisited link */
+a:link {
+    color: blue;
+}  
+/* Visited link */
+a:visited {
+    color: purple;
+} 
+/* Mouse over link */
+a:hover {
+    color: red;
+} 
+/* Selected link */
+a:active {
+    color: black;
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 27px;
+    overflow: hidden;
+    background-color: black;
+}
+/*Foot navigation li tag Styling*/  
+#footerNav li {
+    float: center;
+}
+/*Foot navigation "a" tag Styling*/  
+#footerNav li a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}
+/*Foot navigation hover Styling*/ 
+#footerNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+/*Mobile responsive Styling*/
+/*Main Navigation Styling for mobile*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px;
+    border-top: 70px solid white;     
+}
+
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 190px;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+}
+body {
+    background-color: black;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: whitesmoke;
+} 
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 105px;
+    height: 65px;
+    border-top: 85px solid white;     
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 205px;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-color: white;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px;
+    border-top: 75px solid white;     
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 215px;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: whitesmoke;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}    
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+}
+/*Body Styling*/
+body {
+    background-color: white;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 758px;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+
+}
+/*Body Styling*/
+body {
+    background-color: black;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: whitesmoke;
+} 
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 0%;
+    width: 100%;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 1015px;
+    background-color: black;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover :not(.active) {
+    background-color: grey;
+    transition: 0.5s;
+}
+}
+/*Body Styling*/
+body {
+    background-color: white;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Video Styling*/
+video{
+    width: 100%;
+}
+/*Animation for an Image*/
+#animatedImage img{
+    position: relative;
+    left: 27%;
+    width: 50%;
+    height: auto;  
+}
+#animatedImage img:hover{
+    transform: rotate(20deg);
+}
+/*Audio Styling*/
+audio{
+    width: 100%;
+}
+

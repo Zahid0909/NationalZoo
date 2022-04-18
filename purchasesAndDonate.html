@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="This is a site about the zoo">
+        <title>Purchases and Donate</title>
+        <!--Link to the External Style Sheets-->
+        <link rel="stylesheet" href="CSS/normalize.css">
+        <link rel="stylesheet" href="CSS/purchasesAndDonate.css">
+        <!--Adding an Icon Using Web Manifest-->
+        <link rel="apple-touch-icon" sizes="152x152" href="Images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png">
+        <link rel="manifest" href="Images/site.webmanifest">
+        <link rel="shortcut icon" href="Images/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="Images/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!--Internal CSS to align the paragraph and logo image-->
+        <style>
+            img 
+            {
+                float: left;
+            }
+        </style>
+    </head>
+    <!--body tag which carries the main context of the page -->
+    <body>
+        <div id="myPage">
+            <!--header tag  to add the header for the Purchases And Donate page-->
+            <header id="mainHeader">
+                <!--Logo of the website with a clickable image which would return to homepage-->
+                <a href="index.html" value="Homepage">
+                <img src="Images/Logo.jpg" alt="Zoo Logo" width="164" height="102"></a>
+                <!--Main Navigation For The Website-->
+                <nav id="mainNav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="animalsAndPlants.html">Animal & Plants</a></li>
+                        <li><a href="activities.html">Activities</a></li>
+                        <li><a href="purchasesAndDonate.html">Purchase & Donate</a></li>
+                        <li><a href="contactUs.html">Contact Us</a></li> 
+                    </ul>
+                </nav>
+            </header><br>
+            <main id="purchaseAndDonateContainer">
+                <!--section tag to make the first section of the Purchases and Donate Page-->
+                <section>
+                    <!--h2 tag to create the first Main heading of the Purchases and Donate page-->
+                    <h2><u>Buy My Tickets</u></h2><br><br><br><br>
+                    <!--form tag to create the first form of the Purchases and Donate page-->
+                    <form id="frmPurchase">
+                        Ticket Type :<br> 
+                        <select id="txtTicket" name="txtTicket" onchange = "calculateCost();" />
+                            <option value="">--Select Here--</option>
+                            <option value="0">Day Pass</option>
+                            <option value="1">Student Pass</option>
+                            <option value="2">Foreigner Pass</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        Duration : <br>
+                        <select id="duration" name="duration" onchange="calculateCost();">
+                            <option value="">--Select Here--</option>
+                            <option value="0">3 Hours</option>
+                            <option value="1">1/2 Day</option>
+                            <option value="2">Full Day</option>
+                            <option value="3">2 Days</option>
+                        </select>
+                        <br/>
+                        <br/>
+                        Adults :<br>
+                        <input type="number" size="5" id="nAdults" name="nAdults" placeholder="Number of Adults" onblur="calculateCost();" /><br>
+                        Children :<br> 
+                        <input type="number" size="5" id="nChildren" name="nChildren" placeholder="Number of Children" onblur="calculateCost();" />
+                        <br/>
+                        <br/>
+                        <lable for ="optional">
+                            <input type="checkbox" id="optional" onclick="extras();">
+                            Extras :
+                            </lable>
+                            <div id="divExtras" style="display: none;"><br>
+                        Annual Pass :<br>
+                        <input type="number" size="5" id="annualP" name="annualP" onblur ="calculateCost();" />
+                        <br/>
+                        <br/>
+                        Food Token :<br>
+                        <input type="number" size="5" id="fTokens" name="fTokens" onblur="calculateCost();" />
+                    </div>
+                        <br/>
+                        <br/>
+                        
+                        Cost : LKR <span id="spCost">0.00</span>
+                        <br/>
+                        <br/>
+                        <table id="buttonTableOne">
+                            <tr>
+                                <th><input type="button" value="Add to Favourites" id="addToFav"></th>
+                                <th><input type="button" value="Order Favourites" id="orderThroughFav"></th>
+                                <th><input type="button" value="Check Loyalty" id="checkLoyalty" onclick="showLoyaltyPoints();"></th>
+                            </tr>
+                        </table> 
+                        <br><br><br>  
+                        <input type="button" value="Add to Order" onclick="addToOrder();" />    
+                   </form>  
+                   <div id="divOrder" style="display: none;">
+                    <hr />
+                    <h2><u>Summary of Selected Order.</u></h2>
+                    <table border="1" width="50%" id="tbl_order">
+                        <thead>
+                            <tr>
+                                <th>Type</th>
+                                <th>Adult</th>
+                                <th>Children</th>
+                                <th>Duration</th>
+                                <th>Annual Passes</th>
+                                <th>Food Tokens</th>
+                                <th>Total</th>
+                                <th></th> 
+                            </tr>
+                        </thead>
+                        <tbody id="tbody_order"></tbody>
+                        <tfoot>
+                            <tr>
+                                <th colspan="6">Grand Total</th>
+                                <th colspan="1" id="fTotal">0.00</th>
+                            </tr>
+                        </tfoot>  
+                    </table>
+                    <center><input type="button" value="Place Order" onclick="placeOrder();"/></center>  
+                    </div>
+                    </div>
+                    </section>
+                    <br><br><br><br>
+                    <form id="don">
+                        <div class="dc">
+                        <div class="container">
+                          <h2><u>Support and Donate to Create a Better life for our Animals at the Dehiwala Zoo</u></h2>  
+                        </div>
+                        <div class="container">
+                          <input type="text" placeholder="Enter your Name" id="name" required><br>
+                          
+                          <input type="text" placeholder="Enter your Address" id="uAddress" ><br>
+                          <label>
+                             
+                            <input type="radio" checked="checked" name="subscribe"> 100 LKR
+                            <br><br>
+                            <input type="radio" name="subscribe"> 500LKR
+                            <br><br>
+                            <input type="radio" name="subscribe"> 1000LKR
+                            <br><br>
+                            <input type="radio" name="subscribe"> 2500LKR
+                            <br><br>
+                            <input type="radio" name="subscribe"> 5000LKR
+                            <br><br>
+                            <input type="radio" name="subscribe"> 10000LKR
+                        
+                            <br>
+                            <br>
+                          </label>
+                
+                          Card Holder's Name :<br> 
+                          <input type="text" placeholder="MOHOMAD ZAHID UVAIS" id="cHName"> <br>
+                          Card Number :<br> 
+                          <input type="tel" maxlength="19" placeholder="xxxx xxxx xxxx xxxx" id="cNum" data-mask="0000 0000 0000 0000" > <br><br>
+                          Expiry Month & Year :<br><br> 
+                          <input type="month" id="exp" ><br><br>
+                        
+                          CVC :<br> 
+                            <input type="text" placeholder="123" id="cvcNum" maxlength="3" >
+                          
+                            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+                        </div>
+                        <br><br>
+                        <div class="container">
+                          <input type="button" value="Donate" onclick="inputValidation();">
+                        </div>
+                      </form>
+                                </td>           
+                            </tr>    
+                        </table><br><br><br>
+                    </div>    
+                </section>
+            </main><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <!--footer tag to add the footer for the Purchases and Donate page-->    
+            <footer>
+                <!--nav tag to add a navigation bar to the footer-->
+                <nav id="footerNav">
+                    <ul>
+                        <li><a href="https://www.google.com/" target="_blank">Help</a></li>
+                        <li><a href="privacyAndTerms.html">Privacy and Terms</a></li>
+                        <li><a href="userAgreement.html">User Agreement</a></li>
+                    </ul>
+                </nav>
+
+                <!--Footer navigation li: Google (2011) Help. [Online] Available from:https://www.google.com/ [Accessed:20/11/2021]--> 
+                <!--Footer navigation li: Google (2011) Privacy and Terms/ User Agreements. [Online] Available from:
+                https://www.starrv.com/graphics/pdf/StarRV_WebsiteTermsConditions.pdf [Accessed:20/11/2021]-->
+            </footer>    
+        </div>
+        <!--Java Script Links-->
+        <script src="Scripts/main.js"></script>
+        <script src="Scripts/donationValidation.js"></script>
+    </body>
+</html>

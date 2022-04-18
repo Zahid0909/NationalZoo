@@ -1,0 +1,1386 @@
+/*Bdoy Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;  
+}    
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-left: 10%;
+    padding: 27px;
+    overflow: hidden;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display: block;
+    color: black;
+    padding:14.3px 25px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Heading Styling*/
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 650px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 3px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 312px;
+    box-sizing: border-box;
+    width: 900px;
+    border: 3px solid #306a82;
+}
+form{
+    box-sizing: border-box;
+    width: 1518px;
+    padding: 100px;
+    border: 5px solid #306a82;
+}
+input[type=text], select{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 25px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=number], select{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=tel], select{ 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 25px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=month], select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 47%;
+    padding: 12px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    resize: horizontal;
+}
+
+/*Reset button hovering Styling*/ 
+input[type=button]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Sumbit button Styling*/
+ input[type=button]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    position: absolute;
+    display: inline-block;  
+    text-align: center; 
+    background-color: #306a82;
+    color: black;
+    padding: 12px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Table Styling*/
+table, td, th {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14pt;
+    border: 3px solid black;
+    margin-left: 22%;
+    margin-bottom: 2%;
+    padding: 2px;    
+}  
+table {
+    width: 900px;
+    border-collapse: collapse;   
+}  
+/*Table One Styling*/
+#buttonTableOne th,td {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14pt;
+    align-items: center;
+    border: 0ch;
+    margin: 2px;
+    padding: 2px;   
+}
+#buttonTableOne {
+    position: absolute;
+    right: 300px;
+    width: 900px;
+    border: none;    
+}
+/*Table One Styling*/
+#buttonTableTwo th,td {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 14pt;
+    align-items: center;
+    border: 0ch;
+    margin: 2px;
+    padding: 2px;   
+}
+#buttonTableTwo {
+    position: absolute;
+    right: 300px;
+    width: 900px;
+    border: none;    
+}
+/*Form Two Styling*/
+#formContainerOne{
+    border: none;
+    width: 600px;
+}
+/*Form Two input method text Styling*/
+#formContainerOne input[type=text], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method textarea Styling*/
+#formContainerOne input[type=text], select, textarea { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method date Styling*/
+#formContainerOne input[type=date], select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 12px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    resize: horizontal;
+}
+/*Form Two input method email Styling*/
+#formContainerOne input[type=email], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method number Styling*/
+#formContainerOne input[type=number], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method month Styling*/
+#formContainerOne input[type=month], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two reset button Styling*/
+#formContainerOne input[type=reset]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Form Two reset button hovering Styling*/ 
+#formContainerOne input[type=reset]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainerOne input[type=submit]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    position: absolute;
+    right: 680px;   
+    text-align: center; 
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerOne input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+    
+}
+/*Form Two Styling*/
+#formContainerTwo{
+    border: none;
+    margin-top: 0%;
+    width: 600px;
+}
+/*Form Two input method text Styling*/
+#formContainerTwo input[type=text], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method textarea Styling*/
+#formContainerTwo input[type=text], select, textarea { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method date Styling*/
+#formContainerTwo input[type=date], select{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 12px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    resize: horizontal;
+}
+/*Form Two input method email Styling*/
+#formContainerTwo input[type=email], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method number Styling*/
+#formContainerTwo input[type=number], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two input method month Styling*/
+#formContainerTwo input[type=month], select { 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    width: 49%;
+    padding: 0px;
+    border: 3px solid #306a82;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+/*Form Two reset button Styling*/
+#formContainerTwo input[type=reset]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Form Two reset button hovering Styling*/ 
+#formContainerTwo input[type=reset]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainerTwo #submitTwo[type=submit]{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    position: absolute;
+    right: 80px;   
+    text-align: center; 
+    background-color: #306a82;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#formContainerTwo #submitTwo[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 50px;
+    padding: 27px;
+    overflow: hidden;
+    background-color: #306a82;
+}
+
+/*Foot navigation "a" tag Styling*/  
+#footerNav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}
+/*Foot navigation hover Styling*/ 
+#footerNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Mobile responsive Styling*/
+/*Main Navigation Styling for mobile*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 896px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px;
+    border-top: 70px solid #306a82;   
+    border-bottom: 70px solid #306a82;   
+}
+
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 190px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Heading Styling*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 5px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 350px;
+    border: 5px solid #306a82;
+}
+/*Form Styling*/
+form{
+    border: none;
+    box-sizing: none;
+    margin-left: 10px;
+    width: 360px;
+    padding: 0px;
+}
+input[type=text], select{ 
+    width: 20%;
+}
+input[type=date], select{
+    width: 350;
+}
+
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 10%;   
+    text-align: left; 
+}
+/*Table Styling*/ 
+table {
+    width: 100%;
+}  
+/*Table One Styling*/
+#tableContainerOne th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+#tableContainerOne {
+    position: absolute;
+    left: 10px;
+    width: 350px;    
+}
+/*Table Two Styling*/
+#tableContainerTwo  th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;    
+}
+#tableContainerTwo {
+    position: absolute;
+    left: 10px;
+    width: 350px;
+    border-collapse: none;    
+}  
+/*Table Three Styling*/
+#tableContainerThree  th,td {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#tableContainerThree {
+    position: absolute;
+    left: 10px;
+    width: 350px;   
+}
+/*Form Two Styling*/
+#formContainerOne{
+    border: none;
+    width: 330px;
+}
+/*Form Two input method text Styling*/
+#formContainerOne input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainerOne input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainerOne input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainerOne input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainerOne input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainerOne input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainerOne input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerOne input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainerOne input[type=submit]{
+    
+    position: absolute;
+    right: 20px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerOne input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainerOne #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Form Two Styling*/
+#formContainerTwo{
+    border: none;
+    width: 140%;
+}
+/*Form Two input method text Styling*/
+#formContainerTwo input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainerTwo input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainerTwo input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainerTwo input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainerTwo input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainerTwo input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainerTwo input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerTwo input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainerTwo input[type=submit]{
+    
+    position: absolute;
+    right: 40px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerTwo input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainerTwo #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 450px;
+}
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) 
+{ 
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 105px;
+    height: 65px;
+    border-top: 85px solid #306a82;
+    border-bottom: 90px solid #306a82;     
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 205px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Heading Styling*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 5px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 5px;
+    box-sizing: border-box;
+    width: 305px;
+    border: 5px solid #306a82;
+}
+/*Form Styling*/
+form{
+    border: none;
+    box-sizing: none;
+    margin-left: 5px;
+    width: 300px;
+    padding: 0px;
+}
+input[type=text], select{ 
+    width: 20%;
+}
+input[type=date], select{
+    width: 305;
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 3%;   
+    text-align: left; 
+}
+/*Table Styling*/ 
+table {
+    width: 100%;
+}  
+/*Table One Styling*/
+#tableContainerOne th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+#tableContainerOne {
+    position: absolute;
+    left: 5px;
+    width: 305px;    
+}
+/*Table Two Styling*/
+#tableContainerTwo  th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;    
+}
+#tableContainerTwo {
+    position: absolute;
+    left: 5px;
+    width: 305px;
+    border-collapse: none;    
+}  
+/*Table Three Styling*/
+#tableContainerThree  th,td {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#tableContainerThree {
+    position: absolute;
+    left: 5px;
+    width: 305px;   
+}
+/*Form Two Styling*/
+#formContainerOne{
+    border: none;
+    width: 300px;
+}
+/*Form Two Styling*/
+#formContainerTwo{
+    border: none;
+    width: 140%;
+}
+/*Form Two input method text Styling*/
+#formContainerOne input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainerOne input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainerOne input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainerOne input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainerOne input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainerOne input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainerOne input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerOne input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainerOne input[type=submit]{
+    
+    position: absolute;
+    right: 20px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainerOne input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainerOne #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 450px;
+}
+}
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px;
+    border-top: 75px solid #306a82;  
+    border-bottom: 75px solid #306a82;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: center;
+    padding: 0;
+    width: 215px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding:14px 15px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+} 
+/*Heading Styling*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 5px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 5px;
+    box-sizing: border-box;
+    width: 350px;
+    border: 5px solid #306a82;
+}
+/*Form Styling*/
+form{
+    border: none;
+    box-sizing: none;
+    margin-left: 5px;
+    width: 340px;
+    padding: 0px;
+}
+input[type=text], select{ 
+    width: 20%;
+}
+input[type=date], select{
+    width: 345;
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 3%;   
+    text-align: left; 
+}
+/*Table Styling*/ 
+table {
+    width: 100%;
+}  
+/*Table One Styling*/
+#tableContainerOne th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+#tableContainerOne {
+    position: absolute;
+    left: 5px;
+    width: 350px;    
+}
+/*Table Two Styling*/
+#tableContainerTwo  th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;    
+}
+#tableContainerTwo {
+    position: absolute;
+    left: 5px;
+    width: 350px;
+    border-collapse: none;    
+}  
+/*Table Three Styling*/
+#tableContainerThree  th,td {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#tableContainerThree {
+    position: absolute;
+    left: 5px;
+    width: 345px;   
+}
+/*Form Two Styling*/
+#formContainer{
+    border: none;
+    width: 340zpx;
+}
+/*Form Two input method text Styling*/
+#formContainer input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainer input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainer input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainer input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainer input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainer input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    
+    position: absolute;
+    right: 20px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainer #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 450px;
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 135px;
+    height: 90px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 758px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Heading Styling*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 5px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 5px;
+    box-sizing: border-box;
+    width: 750px;
+    border: 5px solid #306a82;
+}
+/*Form Styling*/
+form{
+    border: 5px solid #306a82;
+    box-sizing: none;
+    margin-left: 5px;
+    width: 750px;
+    padding: 10px;
+}
+input[type=text], select{ 
+    width: 20%;
+}
+input[type=date], select{
+    width: 345;
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 3%;   
+    text-align: left; 
+}
+/*Table Styling*/ 
+table {
+    width: 100%;
+}  
+/*Table One Styling*/
+#tableContainerOne th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+#tableContainerOne {
+    position: absolute;
+    left: 200px;
+    width: 350px;    
+}
+/*Table Two Styling*/
+#tableContainerTwo  th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;    
+}
+#tableContainerTwo {
+    position: absolute;
+    left: 200px;
+    width: 350px;
+    border-collapse: none;    
+}  
+/*Table Three Styling*/
+#tableContainerThree  th,td {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#tableContainerThree {
+    position: absolute;
+    left: 5px;
+    width: 750px;   
+}
+/*Form Two Styling*/
+#formContainer{
+    border: none;
+    width: 740px;
+}
+/*Form Two input method text Styling*/
+#formContainer input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainer input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainer input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainer input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainer input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainer input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    
+    position: absolute;
+    right: 20px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainer #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 450px;
+}
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) 
+{
+/*Logo Image Styling*/    
+#mainHeader img{
+    width: 164px;
+    height: 102px; 
+    border-top: 0;   
+}
+/*Main navigation Styling*/
+#mainNav ul {
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0;
+    width: 1015px;
+    background-color: #306a82;
+}  
+/*Main navigation li tag Styling*/
+#mainNav li {
+    float: left;
+}      
+/*Main navigation "a" tag Styling*/    
+#mainNav li a {
+    display:block;
+    color: black;
+    text-align: center;
+    padding: 9px 10px;
+    text-decoration: none;
+}     
+/*Main navigation hover Styling*/    
+#mainNav li a:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Body Styling*/
+body {
+    background-image: url("../Images/BackgroundImage.jpg");
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    color: black;
+}
+/*Heading Styling*/
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    left: 10px;
+    box-sizing: border-box;
+    width: 280px;
+    border: 5px solid #306a82;
+}
+h4{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #306a82;
+    position: absolute;
+    left: 5px;
+    box-sizing: border-box;
+    width: 1010px;
+    border: 5px solid #306a82;
+}
+/*Form Styling*/
+form{
+    border: 5px solid #306a82;
+    box-sizing: none;
+    margin-left: 5px;
+    width: 1010px;
+    padding: 10px;
+}
+input[type=text], select{ 
+    width: 20%;
+}
+input[type=date], select{
+    width: 345;
+}
+/*Sumbit button Styling*/
+input[type=submit]{
+    position: absolute;
+    right: 3%;   
+    text-align: left; 
+}
+/*Table Styling*/ 
+table {
+    width: 100%;
+}  
+/*Table One Styling*/
+#tableContainerOne th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+#tableContainerOne {
+    position: absolute;
+    left: 350px;
+    width: 350px;    
+}
+/*Table Two Styling*/
+#tableContainerTwo  th,td {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: none;    
+}
+#tableContainerTwo {
+    position: absolute;
+    left: 350px;
+    width: 350px;
+    border-collapse: none;    
+}  
+/*Table Three Styling*/
+#tableContainerThree  th,td {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+#tableContainerThree {
+    position: absolute;
+    left: 5px;
+    width: 1010px;   
+}
+/*Form Two Styling*/
+#formContainer{
+    border: none;
+    width: 740px;
+}
+/*Form Two input method text Styling*/
+#formContainer input[type=text] select{ 
+    width: 50%;
+}
+/*Form Two input method textarea Styling*/
+#formContainer input[type=text] textarea { 
+    width: 50%;
+}
+/*Form Two input method date Styling*/
+#formContainer input[type=date]{
+    width: 50%;
+}
+/*Form Two input method email Styling*/
+#formContainer input[type=email]{ 
+    width: 50%;
+}
+/*Form Two input method number Styling*/
+#formContainer input[type=number]{ 
+    width: 50%;
+}    
+/*Form Two input method month Styling*/
+#formContainer input[type=month]{ 
+    width: 50%;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    position: absolute;
+    right: 120px; 
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Styling*/
+#formContainer input[type=submit]{
+    
+    position: absolute;
+    right: 20px;  
+}
+/*Form Two submit button hovering Styling*/  
+#formContainer input[type=submit]:hover:not(.active) {
+    background-color: #80cff0;
+    transition: 0.5s;
+}
+/*Form Two sumbit button Two Styling*/
+#formContainer #submitTwo[type=submit]{
+    position: absolute;
+    right: 20px;   
+}
+/*Foot navigation Styling*/
+#footerNav ul {
+    list-style-type: none;
+    margin-top: 450px;
+}
+}
